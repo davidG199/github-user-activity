@@ -1,5 +1,3 @@
-import pprint
-
 import requests
 print("github user CLI")
 username = input("Ingresa el nombre del usuario\n")
