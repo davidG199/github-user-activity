@@ -5,12 +5,12 @@
 Este es un script simple que permite conocer la actividad reciente de un usuario en GitHub, utilizando la [GitHub API](https://docs.github.com/en/rest). 
 El script consulta eventos como commits, comentarios, creación de issues, pull requests, y más, y los muestra en la consola.
 
-## uso
-1. clona este repositorio
+## Uso
+1. Clona este repositorio
 ```
 git clone https://github.com/davidG199/github-user-activity.git
 ```
-2. entra a la carpeta del proyecto
+2. Entra a la carpeta del proyecto
 ```
 cd github-user-activity
 ```
@@ -19,7 +19,7 @@ cd github-user-activity
 py -m venv .venv
 .venv\Scripts\activate
 ```
-4.  instala dependencias
+4.  Instala dependencias
 ```
 pip install -r requirements.txt
 ```
@@ -29,7 +29,7 @@ python main.py
 ```
 6. Ingresa el nombre de usuario de github
 
-## ejemplo de salida 
+## Ejemplo de salida 
 ```
 --BIENVENIDO--
 Ingresa el nombre del usuario
@@ -40,6 +40,7 @@ usuario
 --starred usuario/Hello-world
 ```
 
+[Link del reto](https://roadmap.sh/projects/github-user-activity)
 👌
   
 
